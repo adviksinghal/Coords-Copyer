@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "coords-copyer",
+	"version": "${version}",
+	"name": "Coords Copyer",
+	"description": "This mod simply copies your coords by pressing C, very simple but pretty usefull",
+	"authors": [
+		"ProHacker888"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/cc",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/coords-copyer/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.cc.client.CoordsCopyerClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
